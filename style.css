@@ -1,0 +1,35 @@
+.tabela {
+    display: flex;
+    justify-content: end;
+}
+
+.tabela tr td {
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+.tabela tr td span {
+    text-align: left;
+}
+
+.linha-flex {
+    display: flex;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: end;
+}
+
+
+.left {
+    align-self: start;
+    justify-self: start;
+}
+
+.right {
+    align-self: end;
+    justify-self: end;
+}
